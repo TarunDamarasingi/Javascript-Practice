@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/project_1.css">
+<title>Image Carousel</title>
+
+</head>
+<body>
+    <header>
+        <h1>My Artworks</h1>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+    </header>
+    <p>Hello Guys, I'm Artist Tarun Damarasingi.. Im asia book of records holder in Arts category.and India Book of records too. <br> Check my Artworks, definitely you'll like these a lot !.</p>
+<div class="carousel-container">
+  <div class="carousel-images">
+    <img class= "carousel-image" id="carousel-image" src="/images/IMG_20230921_164315.jpg" alt="Image 1">
+    <img  class= "carousel-image" id="carousel-image" src="/images/IMG_20230921_165200.jpg" alt="Image 2">
+    <img  class= "carousel-image" id="carousel-image" src="/images/IMG_20230921_165240.jpg" alt="Image 3">
+  </div>
+  <button class="carousel-btn carousel-btn-prev" onclick="prevImage()">&#10094;</button>
+  <button class="carousel-btn carousel-btn-next" onclick="nextImage()">&#10095;</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
